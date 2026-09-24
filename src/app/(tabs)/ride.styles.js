@@ -1,0 +1,76 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+    container:{
+        flex:1,
+        backgroundColor:'black',
+    },
+    imageContainer:{}
+    ,
+    backgrounImage:{
+        width:'100%',
+        height:450
+    },
+    HeaderText:{
+        color:"white",
+        fontSize:26,
+        fontWeight:'bold',
+        paddingHorizontal:10,
+        marginVertical:10
+    },
+    textInputContainer:{
+paddingHorizontal:10
+    },
+    searchInput:{
+        borderWidth:1,
+        borderColor:'white',
+        color:'white',
+        borderRadius:10,
+        padding:10,
+        backgroundColor:'white'
+    },
+    exploreCardContainer:{
+        paddingHorizontal:10,
+        marginVertical:10
+    },
+    exploreCardHeader:{
+        color:'white'
+    },
+    exploreCard:{
+        display:'flex',
+        flexDirection:'row',
+        gap:10,
+        marginVertical:10
+    },
+    exploreCardBox:{
+        flex:1,
+        padding:20,
+        borderRadius:10,
+       alignItems:"center",
+       backgroundColor:'#363333'
+    },
+    exploreCardIcon:{
+    },
+    exploreCardText:{
+        color:'white',
+        textAlign:'center',
+        fontSize:20
+    },
+    rideNowContainer:{
+        marginHorizontal:10,
+    },
+    rideNowBox:{
+        backgroundColor:'#363333',
+        paddingVertical:50,
+        borderRadius:10
+    },
+    riderNowBoxText:{
+        color:'white',
+        paddingVertical:10,
+        fontWeight:'bold',
+        paddingHorizontal:30
+    },
+    carCardContainer:{
+        
+    }
+})
