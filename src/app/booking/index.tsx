@@ -178,7 +178,7 @@ const index = (route: number) => {
                         <Text style={styles.continueButtonText}>Continue</Text>
                     </TouchableOpacity>
                 </View> */}
-            <PriceButton onPress={() => router.push('/bookingPackage')} />
+            <PriceButton onPress={() => router.push('/booking/bookingPackage')} />
         </SafeAreaView>
     );
 };

@@ -211,7 +211,7 @@ const index = () => {
                 </View>
             </ScrollView>
 
-            <PriceButton onPress={() => router.push('/bookingAddOns')} />
+            <PriceButton onPress={() => router.push('/booking/bookingAddOns')} />
 
         </SafeAreaView>
     );
